@@ -7,7 +7,7 @@ const DigitalOperating = () => {
     return (
 
         <Container fluid className="butteryfly-img" style={{
-            backgroundColor: "#0F9FFA",
+            background: 'url("/images/ant.png") no-repeat #0F9FFA',
             color: "white",
             height: "100vh",
             paddingTop: "120px"
