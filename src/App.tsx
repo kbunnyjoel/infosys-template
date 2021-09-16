@@ -10,11 +10,17 @@ import './App.css'
 
 const App = () => {
   return (
-    <div style={{ height: "100vh" }}>
-      <NavBar/>
-      <HomePage />
-      <DigitalCore />
-      <DigitalOperating />
+    <div className="items" style={{ height: "100vh" }}>
+      <NavBar />
+      <div className="item">
+        <HomePage />
+      </div>
+      <div className="item">
+        <DigitalCore />
+      </div>
+      <div className="item">
+        <DigitalOperating />
+      </div>
     </div >
   );
 }
