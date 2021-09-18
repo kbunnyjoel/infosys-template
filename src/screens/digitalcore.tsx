@@ -6,18 +6,20 @@ import '../App.css'
 const DigitalCore = () => {
     return (
 
-        <Container fluid className="" style={{
-            color: "white",
-            height: "100vh",
-            paddingTop: "120px",
-            background: 'url("/images/butterfly.png") no-repeat #DF9926' 
-        }}>
+        <Container fluid className="butterfly-img"
+            style={{
+                color: "white",
+                height: "100vh",
+                paddingTop: "120px",
+                background: 'url("/images/butterfly.png") no-repeat #DF9926',
+                whiteSpace: "break-spaces"
+            }}>
             <Container>
                 <Row>
                     <Col lg={5} xs>
                         <h2 style={{
-                            fontSize: "40px", alignItems: "center",
-
+                            fontSize: "40px",
+                            alignItems: "center",
                             fontWeight: 'bold'
                         }}>Digital Core Capabilities</h2>
                         <Row><p style={{
@@ -30,7 +32,7 @@ const DigitalCore = () => {
                         <Row>
                             <Col lg={5} xs>
                                 <Button style={{
-                                 padding: "10px 40px",   marginTop: "30px", border: "1px solid white", color: "white"
+                                    padding: "10px 40px", marginTop: "30px", border: "1px solid white", color: "white"
                                 }}
                                     variant="outline-dark">
                                     Explore

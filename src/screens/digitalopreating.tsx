@@ -10,7 +10,8 @@ const DigitalOperating = () => {
             background: 'url("/images/ant.png") no-repeat #0F9FFA',
             color: "white",
             height: "100vh",
-            paddingTop: "120px"
+            paddingTop: "120px",
+            whiteSpace: "break-spaces"
         }}>
             <Container>
                 <Row>
