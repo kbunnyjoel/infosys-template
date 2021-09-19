@@ -6,12 +6,14 @@ import '../App.css'
 const HomePage = () => {
     return (
 
-        <Container fluid className="lead-img" 
-        style={{ background: 'url("/images/lead.jpg")'}}>
+        <Container fluid className="lead-img"
+            style={{
+                background: 'url("/images/lead.jpg")',
+             }}>
             <Container>
                 <Row>
-                    <Col lg={6} xs>
-                        <p className="align-paragraph">
+                    <Col lg={6} md xs>
+                        <p className="align-paragraph" style={{whiteSpace:'break-spaces'}}>
                             Unveiling Infosys Equinox: Digital Commerce Platform Driving Human-Centric and Memorable Omnichannel Shopping Experiences</p>
                         <Button style={{ padding: "10px 0px", marginTop: "20px", border: "1px solid white", color: "white" }}
                             variant="outline-dark">

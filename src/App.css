@@ -9,6 +9,7 @@
 
 body {
   height: 100vh;
+  width: auto;
   }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,6 +17,19 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.items{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: auto;
+  white-space: nowrap;
+  }
+
+  .item{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+ }
 
 .lead-img{
   /* background: url('http://localhost:3000/images/lead.jpg') repeat; */
